@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 60px;
+  width: 100%;
+}
+
+.logo {
+  background-image: url(../../../assets/logo.svg);
+  background-size: cover;
+  height: 98px;
+  width: 98px;
+  margin-top: 2px;
+}
+
+.nav {
+  margin-top: 41px;
+  margin-left: 317px;
+}
+
+.btn {
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lang__cg {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn:first-child {
+  margin-left: 0;
+}
+
+.lang {
+  margin-top: 41px;
+  margin-left: 395px;
+}
+
+
+.btn:hover {cursor: url(../../../assets/act.svg) 29 29, auto};
+
+a:hover {cursor: url(../../../assets/act.svg) 29 29, auto};
+
+a {
+  text-decoration:none;
+  color: #EFF3F5;
+}
+

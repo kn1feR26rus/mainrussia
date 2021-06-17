@@ -1,0 +1,27 @@
+<section class="blogger-section">
+  <h1 class="title">Блогеры</h1>
+  <div class="bloggers">
+    <div class="blogger" *ngFor="let blogger of bloggers" [routerLink]="[ '/', 'about', blogger.id]">
+      <div class="backgrnd" [ngStyle]="{'background-image': 'url('+ blogger.img +')'}"></div>
+      <div class="info">
+        <div class="info__name">
+          <p class="info__name-id">{{blogger.name}}</p>
+        </div>
+        <div class="info__social">
+          <div class="social-yt social">
+            <img src="../../../assets/logo_youtube.png" alt="" class="info__social-logo">
+            <p class="info__social-web">{{blogger.youtube}}+</p>
+          </div>
+          <div class="social-vk social">
+            <img src="../../../assets/logo_vk.png" alt="" class="info__social-logo">
+            <p class="info__social-web">{{blogger.vk}}+</p>
+          </div>
+          <div class="social-insta social">
+            <img src="../../../assets/logo_insta.png" alt="" class="info__social-logo">
+            <p class="info__social-web">{{blogger.insta}}+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,81 @@
+<section class="about">
+  <div class="blogger">
+    <div class="photo" [ngStyle]="{'background-image': 'url('+ blogger.img +')'}"></div>
+    <div class="about__info">
+      <div class="name">
+        <h3 class="name_p">{{blogger.name}}</h3>
+      </div>
+      <div class="social-blog">
+        <div class="social">
+          <img src="../../../../assets/youtube_logo_big.png" alt="" class="info__logotype">
+          <div class="social__yt">
+            <div class="social-text">
+              <p class="social-text-value">{{blogger.youtube}}+</p>
+              <p class="social-text-subscibe">Подписчиков</p>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <img src="../../../../assets/vk__logo_big.png" alt="" class="info__logotype">
+          <div class="social__yt">
+            <div class="social-text">
+              <p class="social-text-value">{{blogger.vk}}+</p>
+              <p class="social-text-subscibe">Подписчиков</p>
+            </div>
+          </div>
+        </div>
+        <div class="social">
+          <img src="../../../../assets/insta__logo_big.png" alt="" class="info__logotype">
+          <div class="social__yt">
+            <div class="social-text">
+              <p class="social-text-value">{{blogger.insta}}+</p>
+              <p class="social-text-subscibe">Подписчиков</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info__channel">
+        <h4 class="info__channel-name">Информация о канале</h4>
+        <p class="info__channel-text">{{blogger.info}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="last-video">
+  <h1 class="title">Последние ролики</h1>
+  <div class="video">
+    <iframe width="421" height="217" src="https://www.youtube.com/embed/NPpTbNSKgCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="421" height="217" src="https://www.youtube.com/embed/wNguf1g-dvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="421" height="217" src="https://www.youtube.com/embed/SsvM80bIA1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="421" height="217" src="https://www.youtube.com/embed/zJODMh2cULg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="421" height="217" src="https://www.youtube.com/embed/RK4_D2D2KZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="421" height="217" src="https://www.youtube.com/embed/Rt2zZSaOFtw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</section>
+<section class="another-bloggers">
+  <h1 class="another-title">Другие блогеры</h1>
+  <div class="bloggers-foot">
+    <div class="blogger-foot" *ngFor="let blogger of bloggers" [routerLink]="[ '/', 'about', blogger.id]">
+      <div class="backgrnd" [ngStyle]="{'background-image': 'url('+ blogger.img +')'}"></div>
+      <div class="info-foot">
+        <div class="info__name">
+          <p class="info__name-id">{{blogger.name}}</p>
+        </div>
+        <div class="info__social-foot">
+          <div class="social-yt social-foot">
+            <img src="../../../assets/logo_youtube.png" alt="" class="info__social-foot">
+            <p class="info__social-web">{{blogger.youtube}}+</p>
+          </div>
+          <div class="social-vk social-foot">
+            <img src="../../../assets/logo_vk.png" alt="" class="info__social-foot">
+            <p class="info__social-web">{{blogger.vk}}+</p>
+          </div>
+          <div class="social-insta social-foot">
+            <img src="../../../assets/logo_insta.png" alt="" class="info__social-foot">
+            <p class="info__social-web">{{blogger.insta}}+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,267 @@
+.photo {
+  width: 409px;
+  height: 570px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.blogger {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+  margin: 50px 69px 80px;
+  border: 1px solid #EFF3F5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px 0;
+  width: 808px;
+}
+
+.info__logotype {
+  width: 64px;
+  height: 64px;
+}
+
+.social-blog {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  width: 808px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #EFF3F5;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  width: 290px;
+}
+
+.social__yt {
+  margin-right: 50px;
+}
+
+.social__yt:first-child {
+  margin-right: 40px;
+}
+
+.social-text {
+  margin-left: 20px;
+}
+
+.social-text-value {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36,5px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.social-text-subscibe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 5%;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.name {
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 61px;
+  color: white;
+  border-bottom: 1px solid #EFF3F5;
+}
+
+.name_p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.info__channel-name {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36,5px;
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.info__channel-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  letter-spacing: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
+  overflow: auto;
+  height: 120px;
+}
+
+.info__channel-text::-webkit-scrollbar {
+  width: 4px;
+          /* ширина scrollbar */
+}
+.info__channel-text::-webkit-scrollbar-track {
+  background: transparent;
+  width: 2px;
+}
+.info__channel-text::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 61px;
+  width: 1300px;
+}
+
+.last-video {
+  width: 1350px;
+  margin-left: 75px;
+  margin-bottom: 80px;
+}
+
+iframe {
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.another-bloggers {
+  width: 1330px;
+  margin-left: 48px;
+}
+
+.backgrnd {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  opacity: .5;
+  width: 311px;
+  height: 311px;
+}
+
+.backgrnd:hover {
+  opacity: 1;
+}
+
+.bloggers-foot {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.bloggers-foot::-webkit-scrollbar {
+  height: 8px;
+  background-color: #143861;
+}
+
+.bloggers-foot::-webkit-scrollbar-thumb {
+  background: #a5a2a2;
+  border-radius: 5px;
+}
+
+.bloggers-foot::-webkit-scrollbar-track {
+  background: #f7efef;
+  border-radius: 5px;
+}
+
+
+.blogger-foot {
+  position: relative;
+  width: 311px;
+  height: 311px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+
+}
+
+.info-foot {
+  position: absolute;
+  top: 155px;
+  width: 286px;
+  margin-left: 12px;
+  margin-right: 12px;
+
+}
+
+.info__name {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  height: 50px;
+  color: white;
+}
+
+.info__social-foot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  height: auto;
+}
+
+.social-foot {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.social-vk {
+  margin-left: 20px;
+}
+
+.info__social-logo {
+  max-width: 24px;
+  max-height: 24px;
+  margin-right: 12px;
+  width: auto;
+  height: auto;
+}
+
+.info__social-web {
+  color: white;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.another-title {
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.blogger-foot:hover .info-foot {
+  display: none;
+}
+
+.blogger-foot:hover {cursor: url(../../../../assets/act.svg) 29 29, auto};
+.vidos:hover {cursor: url(../../../../assets/act.svg) 29 29, auto};
