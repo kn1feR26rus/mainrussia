@@ -96,8 +96,33 @@ a {
 }
 
 @media screen and (max-width: 820px) {
-  .logo, .nav, .btn, .lang {
+  .logo, .lang, .nav {
     display: none;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .mobile-nav {
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .btn {
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .btn:last-child {
+    margin-bottom: 10px;
   }
 }
 
@@ -105,4 +130,5 @@ a {
   .menu {
     display: none;
   }
+
 }

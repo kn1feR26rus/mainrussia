@@ -15,6 +15,7 @@ import { BloggerComponent } from './pages/blogger/blogger.component';
 import { AboutComponent } from './pages/blogger/about/about.component'
 import { DataService } from './shared/services/data.service';
 
+
 const COMPONENTS = [
   AppComponent,
   HeaderComponent,
