@@ -100,3 +100,15 @@ p {
   width: auto;
   height: auto;
 }
+
+@media screen and (max-width: 1350px) {
+  section {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bloggers {
+    justify-content: space-around;
+  }
+}

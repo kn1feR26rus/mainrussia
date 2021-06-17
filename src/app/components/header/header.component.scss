@@ -50,3 +50,36 @@ a {
   color: #EFF3F5;
 }
 
+@media screen and (min-width: 1281px) {
+  header {
+    max-width: 1440px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  header {
+    max-width: 1024px;
+    width: 100%;
+    margin-left: 15px;
+  }
+  .lang {
+    margin-left: 220px;
+  }
+  .nav {
+    margin-left: 160px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    max-width: 900px;
+    width: 100%;
+  }
+  .nav {
+    margin-left: 100px;
+  }
+  .lang {
+    margin-left: 140px;
+  }
+}
