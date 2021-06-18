@@ -1,5 +1,5 @@
 section {
-  width: 100%;
+  width: 1325px;
   margin: 0 40px;
   margin-top: 32px;
   font-family: Montserrat;
@@ -7,12 +7,17 @@ section {
 }
 
 .bloggers {
-  width: 100%;
+  width: 1345px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: 100%;
   border-bottom: 1px solid #EFF3F5;
+}
+
+.breadscr-a {
+  text-decoration: none;
+  color: white;
 }
 
 .title {

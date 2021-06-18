@@ -2,7 +2,7 @@ header {
   display: flex;
   flex-direction: row;
   margin: 0 60px;
-  width: 100%;
+  width: 1325px;
 }
 
 .logo {
@@ -37,9 +37,8 @@ header {
 
 .lang {
   margin-top: 41px;
-  margin-left: 395px;
+  margin-left: 390px;
 }
-
 
 .btn:hover {cursor: url(../../../assets/act.svg) 29 29, auto};
 
@@ -63,8 +62,9 @@ a {
 
 @media screen and (min-width: 1281px) {
   header {
-    max-width: 1440px;
+    max-width: 1320px;
     width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -131,5 +131,4 @@ a {
   .menu {
     display: none;
   }
-
 }

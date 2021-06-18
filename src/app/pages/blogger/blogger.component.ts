@@ -19,5 +19,4 @@ export class BloggerComponent {
   ngOnInit() {
     this.bloggers = this._userData.getAll();
   }
-
 }

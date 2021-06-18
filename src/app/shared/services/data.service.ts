@@ -82,6 +82,5 @@ export class DataService {
 
   public getBlogger(id: number) {
     return this.bloggers.find(bloggers => bloggers.id === id)
-
   }
 }

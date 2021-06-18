@@ -31,6 +31,7 @@ const COMPONENTS = [
   declarations: [
     AppComponent,
     COMPONENTS,
+
   ],
   imports: [
     BrowserModule,

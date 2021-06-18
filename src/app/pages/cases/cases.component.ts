@@ -11,5 +11,4 @@ export class CasesComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }
