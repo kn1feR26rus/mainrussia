@@ -7,7 +7,7 @@ export class DataService {
       youtube: '1 111 000',
       vk: '133 000',
       insta: '122 333',
-      info: 'Lorem ipsum dolor sit amet, consssssssssssssssssssssssssssssssssssssssssectetur adipiscing elit. Risus elit lobortis pellentesque tellus mi nulla morbi. Risus, quis consectetur sagittis pharetra, urna, leo. Egestas porta habitasse fermentum nulla neque. At eget leo sed bibendum nunc. Diam neque, eu velit urna, feugiat vulputate elit justo. Lectus diam lacus vel donec sit. Vitae venenatis amet suscipit enim nec tincidunt sit lacus. Morbi orci, eget vitae tortor cras at eu duis. Sit est, cursus sem facilisis sed ac ',
+      info: 'Lorem ipsum dolor sit amet, con  ectetur adipiscing elit. Risus elit lobortis pellentesque tellus mi nulla morbi. Risus, quis consectetur sagittis pharetra, urna, leo. Egestas porta habitasse fermentum nulla neque. At eget leo sed bibendum nunc. Diam neque, eu velit urna, feugiat vulputate elit justo. Lectus diam lacus vel donec sit. Vitae venenatis amet suscipit enim nec tincidunt sit lacus. Morbi orci, eget vitae tortor cras at eu duis. Sit est, cursus sem facilisis sed ac ',
     },
     {
       id: 2,
