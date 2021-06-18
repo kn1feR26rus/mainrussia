@@ -265,3 +265,91 @@ iframe {
 
 .blogger-foot:hover {cursor: url(../../../../assets/act.svg) 29 29, auto};
 .vidos:hover {cursor: url(../../../../assets/act.svg) 29 29, auto};
+
+
+@media screen and (min-width: 1281px) {
+  .about {
+    max-width: 1440px;
+    width: 100%;
+    }
+  }
+
+
+@media screen and (max-width: 1350px) {
+  .about {
+    max-width: 1024px;
+    width: 100%;
+  }
+  .blogger {
+    max-width: 1024px;
+    max-height: 572px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .about-info {
+    max-width: 600px;
+    width: 100%;
+  }
+  .name {
+    max-width: 600px;
+    width: 100%;
+  }
+  .social-blog {
+    max-width: 600px;
+    width: 100%;
+  }
+  .info__channel {
+    max-width: 600px;
+    width: 100%;
+  }
+  .info__channel-text {
+    max-height: 100px;
+    height: 100%;
+    margin-right: 10px;
+  }
+  .info__channel-name {
+    margin-top: 10px;
+  }
+
+  .last-video {
+    max-width: 1024px;
+    width: 100%;
+    justify-content: center;
+    margin: 30px auto 30px;
+  }
+
+  .video {
+    margin-left: 45px;
+    margin-top: 20px;
+  }
+
+  iframe {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .title {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .another-bloggers {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .blogger-foot {
+    max-width: 1000px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    max-width: 900px;
+    width: 100%;
+  }
+}
