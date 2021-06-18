@@ -495,5 +495,33 @@ iframe {
   .blogger-foot:first-child {
     margin-left: 0;
   }
+}
 
+@media screen and (max-width: 620px) {
+  .photo {
+    max-width: 270px;
+    width: 100%;
+  }
+
+  .another-bloggers {
+    margin-left: 10px;
+  }
+
+  .another-title {
+    max-width: 450px;
+    width: 100%;
+    font-size: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .blogger {
+    margin: 20px 0 20px 10px;
+  }
+
+  .bloggers-foot {
+    max-width: 450px;
+    width: 100%;
+    margin-left: 20px;
+  }
 }

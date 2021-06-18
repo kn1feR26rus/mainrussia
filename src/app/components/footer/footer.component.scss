@@ -86,3 +86,10 @@ p {
     height: 50px;
   }
 }
+
+@media screen and (max-width: 620px) {
+  .footer {
+    max-width: 620px;
+    width: 100%;
+  }
+}
